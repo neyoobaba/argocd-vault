@@ -9,5 +9,5 @@ mongodb:
 
 schoolapp-api:
   vault:
-    status: 'disable' # 'kv_static_injector_template_file'
-    kind: 'disable' #'injector'
+    status: 'kv_static_injector_template_file'
+    kind: 'injector'
